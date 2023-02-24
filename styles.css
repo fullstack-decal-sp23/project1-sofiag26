@@ -1,0 +1,297 @@
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    padding: 1em;
+    text-align: center;
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 1em;
+    z-index: 9;
+    float: center;
+    margin: 20px;
+    background-color: #9CAF88;
+
+}
+
+*{
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+}
+
+li a:hover {
+    font-weight: bold;
+}
+
+.rightbox{
+    float: right;
+    width: 648px;
+    height: 975px;
+    top: 0px;
+    background-color: #9CAF88;
+    padding: 15px;
+}
+
+.shortbox{
+    float: right;
+    width: 648px;
+    height: 700px;
+    top: 0px;
+    background-color: #9CAF88;
+    padding: 15px;
+}
+
+.name{
+    position: absolute;
+    width: 892px;
+    height: 143px;
+    top: 375px;
+    
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 90px;
+    line-height: 110px;
+    left: 168px;
+}
+
+#blurbSize{
+    font-size: 35px;
+    line-height: 1px;
+    left: 168px;
+}
+
+.frontImage{
+    position: absolute;
+    width: 389px;
+    height: 526px;
+    left: 1066px;
+    top: 263px;
+}
+
+.bubble{
+    position: absolute;
+    left: 168px;
+    right: 52.03%;
+    top: 545px;
+    width: 100px;
+    height: 10px;
+
+    background: #9CAF88;
+    border-radius: 15px;
+}
+
+/* currently section */
+#currBubble{
+    position: absolute;
+    left: 169px;
+    right: 0%;
+    top: 1060px;
+    height: 50px;
+
+    font-size: 40px;
+    padding: 10px;
+    font-weight: 500;
+    color: black;
+
+}
+
+#textCurr{
+    position: absolute;
+    left: 178px;
+    top: 1150px;
+}
+
+#bold{
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+    line-height: 2px;
+}
+
+#bubbleTwo{
+    position: absolute;
+    left: 178px;
+    right: 52.03%;
+    top: 1119px;
+    width: 100px;
+    height: 10px;
+
+    background: #9CAF88;
+    border-radius: 15px;
+}
+
+#reg{
+    font-size: 20px;
+    color: black;
+    line-height: 1.8;
+}
+
+
+/* About Me Section */
+.aboutMeBubble{
+    position: absolute;
+    left: 169px;
+    right: 0%;
+    top: 1400px;
+    height: 50px;
+
+    font-size: 40px;
+    padding: 10px;
+    font-weight: 500;
+    color: black;
+
+}
+
+.aboutMeFlex{
+    position: absolute;
+    display: flex;
+    background-color: #9CAF88;
+    left: 169px;
+    top: 1600px;
+    padding:10px;
+    width: 91%;
+}
+
+.flex-container > div {
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+#form{
+    position: absolute;
+    left: 179px;
+    top: 1480px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 500px;
+}
+
+
+#bubbleThree{
+    position: absolute;
+    left: 178px;
+    right: 52.03%;
+    top: 1460px;
+    width: 100px;
+    height: 10px;
+
+    background: #9CAF88;
+    border-radius: 15px;
+}
+
+
+
+/* contact drop down */
+button{
+    font-size: 20px;
+    padding: 1em;
+    margin: 20px;
+    background-color: #9CAF88;
+}
+
+.dropdown {
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 6px 10px;
+    display: block;
+}
+  
+.dropdown-content a:hover {
+    border-style: solid;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* projects */
+
+.proj{
+    position: absolute;
+    left: 169px;
+    /* top: 100px; */
+
+}
+
+h1{
+    font-size: 65px;
+}
+
+#bb{
+    position: absolute;
+    left: 169px;
+    top: 160px;
+}
+
+h4{
+    position: absolute;
+    top: 1400px;
+    left: 169px;
+    margin: 0%;
+}
+#ab{
+    position: absolute;
+    left: 169px;
+    top: 720px;
+}
+
+.grid-container {
+    position: absolute;
+    display: grid;
+    left: 169px;
+    grid-template-columns: auto auto;
+    padding: 10px;
+    top: 200px;
+}
+
+.grid-item {
+    text-align: center;
+    width: 470px;
+    height: 400px;
+    margin-left: 30px;
+}
+
+.grid-container2 {
+    position: absolute;
+    display: grid;
+    left: 169px;
+    grid-template-columns: auto auto;
+    padding: 10px;
+    top: 780px;
+}
+
+#projBubble{
+    position: absolute;
+    left: 168px;
+    right: 52.03%;
+    top: 130px;
+    width: 100px;
+    height: 10px;
+
+    background: #9CAF88;
+    border-radius: 15px;
+}
+
+
+
+  
+ 

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta rel = "author" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sofia's Personal Website</title>
+    <!-- <author>Sofia Garcia</author> -->
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="shortcut icon" type="image/png" href="images/heart.png"/>
+</head>
+
+<body>
+    
+</body>
+    <div class = "name">
+        Sofia Garcia
+        <p id = "blurbSize">Intended CS major @ UC Berkeley</p>
+    </div>
+    <div class = "bubble"></div>
+
+    <img class = "frontImage" src="images/tower.jpeg" alt = "campanile @ UCB">
+    <div class = "rightbox">
+        <nav>
+            <ul>
+                <li>
+                    <a href = "index.html"> About Me </a>
+                </li>
+                <li> 
+                    <a href = "projects.html"> Projects </a>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <button>Contact</button>
+                        <div class="dropdown-content">
+                            <a href="https://www.linkedin.com/in/sofia-garcia-1b38b8262/">LinkedIn</a>
+                            <a href="mailto: sofiag26@berkeley.edu">Email</a>
+                            <a href="https://instagram.com/sofia_garci.a?igshid=MjkzY2Y1YTY=">Instagram</a>
+                        </div>
+                      </div>
+                </li>
+    
+    
+            </ul>
+        </nav>
+    </div>
+
+    <div id = "currBubble">
+        Currently ...
+    </div>
+    <div id = "bubbleTwo"></div>
+
+    <div id ="textCurr">
+        <p><span id ="bold">💻 Computer Science @ UC Berkeley: </span><span id = "reg"> Intended CS Major struggling in just about every CS class lol, but hey, we are still here!</span></p>
+        <p><span id ="bold">👩‍💻 Web Developer @ Codify: </span><span id = "reg"> Working in a tightly knit group to revamp and redesign codify's website</span></p>
+        <p><span id ="bold">🖊 Grant Writer @ CSK: </span><span id = "reg"> working to collect grant for our non-profit women group, as well as working with our webdev team to revamp our website!</span></p>
+    </div>
+
+    <div class = "aboutMeBubble">
+        About Me ...
+    </div>
+    <div id = "bubbleThree"></div>
+
+    <form id = "form">
+        <p>Are you ready to learn about me? lol</p>
+        <input type = "text" placeholder ="True" id="userinput">
+        <input type = "submit" onclick="myfunc()">
+    </form>
+
+
+    <script type="text/javascript">
+        function myfunc() {
+            let input = document.getElementById('userinput');
+            if(input.value == "true" || input.value == "True"){
+                alert("OMG! Hii, my name is Sofia Garia, and I am from LA. I have two dogs, Apollo and Dulce, that are my entire personality 🐾! When I am not here at Berkeley, I spend all my time with my cousins and siblings! 🤍");
+            } else {
+                alert("Well, maybe next time! 🤷‍♀️");
+            }
+        } 
+    </script>
+
+    <div class="aboutMeFlex">
+        <div>
+            <img src = "images/me.jpeg" style = "width: 300px; height: 320px; margin-left: 5px;">
+        </div>
+        <div>
+            <img src = "images/apollo.jpeg" style = "width: 300px; height: 320px; margin-left: 5px;">
+        </div>
+        <div>
+            <img src = "images/dulce.jpeg" style = "width: 300px; height: 320px; margin-left: 5px;">
+        </div>  
+        <div>
+            <img src = "images/family.jpeg" style = "width: 300px; height: 320px; margin-left: 5px;">
+        </div>
+        <div>
+            <img src = "images/family2.jpeg" style = "width: 300px; height: 320px; margin-left: 5px;">
+        </div>
+        <div>
+            <img src = "images/girls.jpeg" style = "width: 300px; height: 320px; margin-left: 5px;">
+        </div> 
+    </div>
+   
+
+
+</html>
